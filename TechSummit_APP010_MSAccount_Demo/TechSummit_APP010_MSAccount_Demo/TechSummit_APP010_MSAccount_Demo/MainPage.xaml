@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="TechSummit_APP010_MSAccount_demo.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TechSummit_APP010_MSAccount_demo">
+    <StackLayout Padding="20">
+        <Label Margin="0,50,0,0"
+               FontSize="48"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               Text="Tech Summit Demo"
+               VerticalOptions="Start" />
+        <StackLayout Orientation="Horizontal">
+            <Label FontAttributes="Bold"
+                   FontSize="48"
+                   Text="名前 : " />
+            <Label x:Name="lblDisplayName" FontSize="48" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontAttributes="Bold"
+                   FontSize="48"
+                   Text="PrincipalName : " />
+            <Label x:Name="lblPrincipalName" FontSize="48" />
+        </StackLayout>
+        <Button x:Name="btnSingIn"
+                Clicked="btnSingIn_Clicked"
+                FontSize="48"
+                HorizontalOptions="FillAndExpand"
+                Text="サインイン"
+                VerticalOptions="End" />
+        <Button x:Name="btnSingOut"
+                Clicked="btnSingOut_Clicked"
+                FontSize="48"
+                HorizontalOptions="FillAndExpand"
+                Text="サインアウト"
+                VerticalOptions="End" />
+    </StackLayout>
+</ContentPage>
