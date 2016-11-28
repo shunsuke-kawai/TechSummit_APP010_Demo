@@ -8,7 +8,7 @@ using Microsoft.Graph;
 using Microsoft.Identity.Client;
 using System.Net.Http.Headers;
 
-namespace TechSummit_APP010_MSAccount_demo
+namespace TechSummit_APP010_MSAccount_Demo
 {
     public partial class MainPage : ContentPage
     {
